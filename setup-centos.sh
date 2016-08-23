@@ -1,3 +1,6 @@
+#install guest addition dependencies
+yum -y install dkms kernel-devel-$(uname -r) kernel-headers-$(uname -r)
+
 #Install MATE on CentOS 7
 
 yum -y install epel-release
